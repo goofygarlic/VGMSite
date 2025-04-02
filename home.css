@@ -19,7 +19,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 1rem 2rem;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(100, 100, 100, 0.7);
 }
 
 .site-logo {
