@@ -44,6 +44,8 @@ nav a:hover {
 main {
     text-align: center;
     padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -80,18 +82,34 @@ footer p {
     color: #ffffff;
 }
 
-article img {
-    width: 100%;
-    max-width: 960px;
-    max-height: 540px;
-    display: block;
-    margin: 15px auto;
+.team-member {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
 }
-
-article {
-    max-width: 1200px;
-    margin: 0 auto 40px auto;
-    text-align: left;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #ccc;
+.team-member img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 1rem;
+}
+.team-member h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+    margin-right: 1.5rem;
+}
+.team-member p {
+    font-size: 1rem;
+    color: #ccc;
+}
+.team-member a {
+    color: #ffcb05;
+    text-decoration: none;
+    font-weight: 500;
+}
+.team-member a:hover {
+    text-decoration: underline;
+    border-top: 1px solid #444;
+    margin-top: 2rem;
 }
